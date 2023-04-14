@@ -9,53 +9,53 @@ const myProfile = {
     bannerColor:"#994E33 #AC5435 #FAF3F0",
     skills:["Javascript", "HTML", "CSS"],
     projects:[
-        project1 = {
-            title:"hogerLager",
+         {
+            title:"Hoger Lager",
             description:"Hoger lager is een spel waarbij je tegen een computer speelt. Je probeert te raden of je een hoger getal gooit dan de bank of een lager getal. Als je goed raad verdien je credits. Credits gebruik je aan het einde van het spel om te bepalen welke prijs je krijgt. Hoe meer credits je hebt aan het einde van het spel, hoe meer je verdient.",
-            teamMates:[
-                teamMate1 = {
+            teamMate1:
+            {
                     fullName:"David Aalderink",
                     link:"https://daalderink.github.io"
-                },
-                teamMate2 = {
+            },
+            teamMate2:
+            {
                     fullName:"Emiel Van Velzen",
                     link:"https://evanvelzen.github.io"
-                }
-            ],
-            img:"",
-            link:"",
+            },    
+            img:"img/Hoger-Lager.png",
+            link:"Hoger-Lager-Normal/index.html",
         },
-        project2 = {
-            title:"ticTacToe",
-            description:"",
-            teamMates:[
-                teamMate1 = {
+         {
+            title:"TicTacToe",
+            description:"Tic Tac Toe of terwijl Boter kaas en eiren is een spel die al bekend is door heel veel mensen. Ik heb een na maak spel gemaakt met niets meer dan Javascript Css en HTML code. Je spelt tegen iemand anders en spelt volgens de normale regels. Je herstart na een win door of de refresh knop te drukken. Je kunt ook een donkere thema kiezen waarbij de kleuren veranderen. Daar naast kun je ook naar de beste muziek luisteren die er is.",
+            teamMate1:
+            {
                     fullName:"David Aalderink",
                     link:"https://daalderink.github.io"
-                },
-                teamMate2 = {
+            },
+            teamMate2:
+            {
                     fullName:"Emiel Van Velzen",
                     link:"https://evanvelzen.github.io"
-                }
-            ],
-            img:"",
-            link:"",
+            },    
+            img:"img/TicTacToe.png",
+            link:"https://github.com/ROCMondriaanTIN/sd22-project-p02-boter-kaas-en-eieren-N1alberto",
         },
-        project3 = {
-            title:"webcatalogus",
-            description:"",
-            teamMates:[
-                teamMate1 = {
+         {
+            title:"Webcatalogus",
+            description:"De webcatalogus werd gemaakt door mij en mijn team genoten. Samen hebben we een reclame gemaakt voor video games. De website is gemaakt in 3 genres. Naamelijk Mobile, Console en PC. Ik was bezig met Console games en gebruikte voor het meeste horror games. ",
+            teamMate1:
+            {
                     fullName:"David Aalderink",
                     link:"https://daalderink.github.io"
-                },
-                teamMate2 = {
+            },
+            teamMate2:
+            {
                     fullName:"Emiel Van Velzen",
                     link:"https://evanvelzen.github.io"
-                }
-            ],
-            img:"",
-            link:"",
+            },    
+            img:"https://www.fantv.nl/images/stories/digitaal/24762-catawiki-webcatalogus-voor-verzamelaars-2.jpg",
+            link:"https://github.com/ROCMondriaanTIN/sd22-p03-project-webcatalogus-ned",
         }
     ]
 
@@ -74,6 +74,7 @@ const myEducationView = document.querySelector(`.my-Education`);
 const myAbillities = document.querySelector(`.my-Abillities`);
 const myProjects = document.querySelector(`.my-Projects`);
 
+
 myUsernameView.innerHTML = myProfile.username;
 myEmailAdressView.innerHTML = "Mijn Email adress: " + myProfile.emailAdress;
 myPfp.innerHTML = '<img class="logo" src="' + myProfile.pfp +'" alt="">';
@@ -83,3 +84,20 @@ mySchoolView.innerHTML = "School: " + myProfile.school;
 myEducationView.innerHTML = "Education: " + myProfile.education;
 myAbillities.innerHTML = "Skills: " + myProfile.skills;
 
+for (let index = 0; index < myProfile.projects.length; index++) {
+    const project = myProfile.projects[index];
+    const card = `<div class="col-md-4"><div class="card">
+        <img class="card-img-top" src="` + project.img+ `" alt="Title">
+        <div class="card-body">
+            <h4 class="card-title">` + project.title + `</h4>
+            <p class="card-text">` + project.description + `</p>
+            <a href='` + project.link + `' class="card-text">Project Link</a>
+            <p class="card-text">` + project.teamMate1.fullName+ `</p>
+            <p class="card-text">` + project.teamMate1.link+ `</p>
+            <br>
+            <p class="card-text">` + project.teamMate2.fullName+ `</p>
+            <p class="card-text">` + project.teamMate2.link+ `</p>
+        </div>
+    </div></div>`
+    myProjects.innerHTML += card
+}
