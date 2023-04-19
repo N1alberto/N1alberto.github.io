@@ -93,10 +93,10 @@ for (let index = 0; index < myProfile.projects.length; index++) {
             <p class="card-text">` + project.description + `</p>
             <a href='` + project.link + `' class="card-text">Project Link</a>
             <p class="card-text">` + project.teamMate1.fullName+ `</p>
-            <p class="card-text">` + project.teamMate1.link+ `</p>
+            <a href="https://daalderink.github.io/"><p class="card-text">` + project.teamMate1.link+ `</p></a>
             <br>
             <p class="card-text">` + project.teamMate2.fullName+ `</p>
-            <p class="card-text">` + project.teamMate2.link+ `</p>
+            <a href="https://evanvelzen.github.io"><p class="card-text">` + project.teamMate2.link+ `</p></a>
         </div>
     </div></div>`
     myProjects.innerHTML += card
