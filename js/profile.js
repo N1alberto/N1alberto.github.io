@@ -86,7 +86,7 @@ myAbillities.innerHTML = "Skills: " + myProfile.skills;
 
 for (let index = 0; index < myProfile.projects.length; index++) {
     const project = myProfile.projects[index];
-    const card = `<div class="col-md-4"><div class="card">
+    const card = `<div class="col-md-4 align-item d-flex"><div class="card align-item d-flex">
         <img class="card-img-top" src="` + project.img+ `" alt="Title">
         <div class="card-body">
             <h4 class="card-title">` + project.title + `</h4>
