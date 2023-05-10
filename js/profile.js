@@ -63,7 +63,8 @@ const myProfile = {
 }
 console.log(myProfile);
 
-
+const homeButton = document.querySelector(`.homeButton`);
+const planButton = document.querySelector(`.planButton`);
 const myUsernameView = document.querySelector(`.my-Username`);
 const myEmailAdressView = document.querySelector(`.my-EmailAdress`);
 const myPfp = document.querySelector(`.my-Pfp`);
@@ -74,6 +75,15 @@ const myEducationView = document.querySelector(`.my-Education`);
 const myAbillities = document.querySelector(`.my-Abillities`);
 const myProjects = document.querySelector(`.my-Projects`);
 
+planButton.onclick = pressPlanButton;
+homeButton.onclick = pressHome;
+
+function pressPlanButton(){
+    window.location.href = "plan-van-aanpak.html"
+}
+function pressHome(){
+    window.location.href = "index.html"
+}
 
 myUsernameView.innerHTML = myProfile.username;
 myEmailAdressView.innerHTML = "Mijn Email adress: " + myProfile.emailAdress;
