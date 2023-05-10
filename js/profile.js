@@ -63,6 +63,7 @@ const myProfile = {
 }
 console.log(myProfile);
 
+const contactButton = document.querySelector(`.contactButton`);
 const homeButton = document.querySelector(`.homeButton`);
 const planButton = document.querySelector(`.planButton`);
 const myUsernameView = document.querySelector(`.my-Username`);
@@ -77,12 +78,16 @@ const myProjects = document.querySelector(`.my-Projects`);
 
 planButton.onclick = pressPlanButton;
 homeButton.onclick = pressHome;
+contactButton.onclick = pressContactButton;
 
 function pressPlanButton(){
     window.location.href = "plan-van-aanpak.html"
 }
 function pressHome(){
     window.location.href = "index.html"
+}
+function pressContactButton(){
+    window.location.href = "contact.html"
 }
 
 myUsernameView.innerHTML = myProfile.username;
