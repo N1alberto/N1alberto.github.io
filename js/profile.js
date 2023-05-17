@@ -56,7 +56,39 @@ const myProfile = {
             },    
             img:"https://www.fantv.nl/images/stories/digitaal/24762-catawiki-webcatalogus-voor-verzamelaars-2.jpg",
             link:"https://github.com/ROCMondriaanTIN/sd22-p03-project-webcatalogus-ned",
-        }
+        },
+        {
+           title:"Dashboard",
+           description:"En onze vierde periode moesten we in een team een dashboard pagina maken. Ieder teamlid moest zijn of haar eigen onderwerp kiezen. Onze 3 onderwerpen waren valuta, weerstation en arcade. Ik heb het arcade gedeelte gedaan en daaronder moest een chatbot en een statistiek.",
+           teamMate1:
+           {
+                   fullName:"David Aalderink",
+                   link:"https://daalderink.github.io"
+           },
+           teamMate2:
+           {
+                   fullName:"Emiel Van Velzen",
+                   link:"https://evanvelzen.github.io"
+           },    
+           img:"img/dashboard.png",
+           link:"https://github.com/ROCMondriaanTIN/sd22-p04-project-dashboard-team-den",
+       },
+       {
+          title:"Slender The Missing Soul",
+          description:"Onze keuzendeel periode was het allerleukste van alle vakken. Eindelijk maken we onze eigen game. Ik zit als gewoonlijk met de twee zelfde personen zoals altijd. In de derde periode moest iedereen een game idee bedeken en een prototype maken. Mijn idee was een horror game op een verlaten schip en mijn teamgenoot had een slenderman game. Dus in de vierde periode hebben we de game ideeën samen gevoegd.",
+          teamMate1:
+          {
+                  fullName:"David Aalderink",
+                  link:"https://daalderink.github.io"
+          },
+          teamMate2:
+          {
+                  fullName:"Emiel Van Velzen",
+                  link:"https://evanvelzen.github.io"
+          },    
+          img:"img/Slenderman.png",
+          link:"https://github.com/ROCMondriaanTIN/sd22-p04-kdl-gp-game-slender-the-missing-soul.git",
+      }
     ]
 
     
