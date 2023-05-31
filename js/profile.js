@@ -3,7 +3,7 @@ const myProfile = {
     emailAdress:"302328036@student.rocmondriaan.nl",
     pfp:"img/Ferret-Studio-Logo.png",
     birthDate:"15-02-2006",
-    biography:"Nathan Alberto is een student op de school van ROC Mondriaan.<br> Hij zit op de opleiding ICT software development met keuzendeel Video Game developer.<br> Momenteel zit hij op zijn eerste jaar en is hij in zijn vierde periode.<br> Hij heeft nu al een paar video spellen gemaakt en verbreid zijn kenis op basis van 2D en 3D video games.<br> Ook is hij bezig met websites creëren en portfolios te schrijven.",
+    biography:"Nathan Alberto is een student op de school van ROC Mondriaan.<br> Hij zit op de opleiding ICT software development met keuzendeel Video Game developer.<br> Momenteel zit hij op zijn eerste jaar en is hij in zijn vierde periode.<br> Hij heeft nu al een paar video spellen gemaakt en verbreid zijn kennis op basis van 2D en 3D video games.<br> Ook is hij bezig met websites creëren en portfolio’s te schrijven.",
     school:"ROC Mondriaan",
     education:"Ict Software Development, Game developer",
     bannerColor:"#994E33 #AC5435 #FAF3F0",
@@ -27,7 +27,7 @@ const myProfile = {
         },
          {
             title:"TicTacToe",
-            description:"Tic Tac Toe of terwijl Boter kaas en eiren is een spel die al bekend is door heel veel mensen. Ik heb een na maak spel gemaakt met niets meer dan Javascript Css en HTML code. Je spelt tegen iemand anders en spelt volgens de normale regels. Je herstart na een win door of de refresh knop te drukken. Je kunt ook een donkere thema kiezen waarbij de kleuren veranderen. Daar naast kun je ook naar de beste muziek luisteren die er is.",
+            description:"Tic Tac Toe of terwijl Boter kaas en eieren is een spel die al bekend is door heel veel mensen. Ik heb een na maak spel gemaakt met niets meer dan Javascript Css en HTML code. Je spelt tegen iemand anders en spelt volgens de normale regels. Je herstart na een win door of de refresh knop te drukken. Je kunt ook een donkere thema kiezen waarbij de kleuren veranderen. Daar naast kun je ook naar de beste muziek luisteren die er is.",
             teamMate1:
             {
                     fullName:"David Aalderink",
@@ -42,8 +42,8 @@ const myProfile = {
             link:"https://github.com/ROCMondriaanTIN/sd22-project-p02-boter-kaas-en-eieren-N1alberto",
         },
          {
-            title:"Webcatalogus",
-            description:"De webcatalogus werd gemaakt door mij en mijn team genoten. Samen hebben we een reclame gemaakt voor video games. De website is gemaakt in 3 genres. Naamelijk Mobile, Console en PC. Ik was bezig met Console games en gebruikte voor het meeste horror games. ",
+            title:"Web catalogus",
+            description:"De web catalogus  werd gemaakt door mij en mijn team genoten. Samen hebben we een reclame gemaakt voor video games. De website is gemaakt in 3 genres. Namelijk Mobile, Console en PC. Ik was bezig met Console games en gebruikte voor het meeste horror games. ",
             teamMate1:
             {
                     fullName:"David Aalderink",
@@ -75,7 +75,7 @@ const myProfile = {
        },
        {
           title:"Slender The Missing Soul",
-          description:"Onze keuzendeel periode was het allerleukste van alle vakken. Eindelijk maken we onze eigen game. Ik zit als gewoonlijk met de twee zelfde personen zoals altijd. In de derde periode moest iedereen een game idee bedeken en een prototype maken. Mijn idee was een horror game op een verlaten schip en mijn teamgenoot had een slenderman game. Dus in de vierde periode hebben we de game ideeën samen gevoegd.",
+          description:"Onze keuzendeel periode was het allerleukste van alle vakken. Eindelijk maken we onze eigen game. Ik zit als gewoonlijk met de twee zelfde personen zoals altijd. In de derde periode moest iedereen een game idee bedenken en een prototype maken. Mijn idee was een horror game op een verlaten schip en mijn teamgenoot had een slenderman game. Dus in de vierde periode hebben we de game ideeën samen gevoegd.",
           teamMate1:
           {
                   fullName:"David Aalderink",
