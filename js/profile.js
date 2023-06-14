@@ -88,7 +88,39 @@ const myProfile = {
           },    
           img:"img/Slenderman.png",
           link:"https://github.com/ROCMondriaanTIN/sd22-p04-kdl-gp-game-slender-the-missing-soul.git",
-      }
+      },
+      {
+         title:"Escape The Cabin",
+         description:"In het schooljaar werden we verteld dat we een escape room moesten maken. De escape room staat helaas niet op github en kan ik niet vertonen op deze website zelf aangezien we github nog niet kende en aangezien ik de namen van de files niet mag aanpassen van visuel studio code. De file zelf kan wel gedownload worden en kan zelf gespeelt worden.",
+         teamMate1:
+         {
+                 fullName:"David Aalderink",
+                 link:"https://daalderink.github.io"
+         },
+         teamMate2:
+         {
+                 fullName:"",
+                 link:""
+         },    
+         img:"img/Escape.png",
+         link:"file:///C:/Users/302328036/OneDrive%20-%20ROC%20Mondriaan/%7BHorror%20Bros%20Escape%20Room%7D.zip",
+     },
+     {
+        title:"Zoek De Verschillen",
+        description:"In de tweede thema week moest iedereen individueel een game maken. Het mocht niet het zelf idee zijn als de eerste thema week (Escape room). Ik heb zoek de verschillen gekozen want dat leek mij wel leuk om uit te proberen.",
+        teamMate1:
+        {
+                fullName:"",
+                link:""
+        },
+        teamMate2:
+        {
+                fullName:"",
+                link:""
+        },    
+        img:"img/Magnifying-glass.png",
+        link:"https://github.com/ROCMondriaanTIN/sd22-themaweek-2-t1m-N1alberto.git",
+    }
     ]
 
     
