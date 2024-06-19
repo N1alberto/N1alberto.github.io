@@ -2,7 +2,7 @@
     "Projects": [
         {
             "title": "Stick Break",
-            "description":"1",
+            "description":"A game I currently am working on. This game doesnt have a goal yet but i already have uploaded music levels. I am working on this game alone so it wont be finished anytime soon.",
             "img":"https://n1alberto.github.io/img/SB.png",
             "link":"https://ferret-studio.itch.io/stick-break",
             "release":"Unknown",
@@ -10,7 +10,40 @@
             "updateInfo":"Unknown"
         },
          {
-
+            "title": "Final Nightmare",
+            "description":"This is Final Nightmare. A fan Game am currently working on. I heard Six wouldn't make an appearance in the following game so i decided to create one myself. I am working on this game alone so it wont be finished anytime soon.",
+            "img":"https://n1alberto.github.io/img/FN.png",
+            "link":"https://www.youtube.com/watch?v=L5eU0sIdILs&ab_channel=FerretStudio%27s",
+            "release":"Unknown",
+            "version":"?",
+            "updateInfo":"Unknown"
+         },
+         {
+            "title": "Playing Human",
+            "description":"1",
+            "img":"https://n1alberto.github.io/img/Playing-Human.png",
+            "link":"???",
+            "release":"Unknown",
+            "version":"?",
+            "updateInfo":"Unknown"
+         },
+         {
+            "title": "Slender The Missing Soul",
+            "description":"1",
+            "img":"https://n1alberto.github.io/img/STMS.png",
+            "link":"https://ferret-studio.itch.io/slender-the-missing-soul",
+            "release":"Unknown",
+            "version":"???",
+            "updateInfo":"Unknown"
+         },
+         {
+            "title": "Slender The Missing Soul Remake",
+            "description":"1",
+            "img":"https://n1alberto.github.io/img/STMS.png",
+            "link":"???",
+            "release":"Unknown",
+            "version":"?",
+            "updateInfo":"Unknown"
          }
     ]
 }
