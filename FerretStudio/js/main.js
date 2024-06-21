@@ -14,6 +14,8 @@ function showOnPage(data) {
     <div class="card-body">
         <h4 class="card-title">`+ projects.title +`</h4>
         <p class="card-text"> `+ projects.description +`</p>
+        <br>
+        Release Date: `+ projects.release +`
     </div>
 </div></div>
         `

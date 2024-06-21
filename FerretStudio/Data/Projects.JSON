@@ -7,20 +7,20 @@
             "link":"https://ferret-studio.itch.io/stick-break",
             "release":"Unknown",
             "version":"?",
-            "updateInfo":"Unknown"
+            "updateInfo":"2023-11-24"
         },
          {
             "title": "Final Nightmare",
             "description":"This is Final Nightmare. A fan Game am currently working on. I heard Six wouldn't make an appearance in the following game so i decided to create one myself. I am working on this game alone so it wont be finished anytime soon.",
             "img":"https://n1alberto.github.io/img/FN.png",
             "link":"https://www.youtube.com/watch?v=L5eU0sIdILs&ab_channel=FerretStudio%27s",
-            "release":"Unknown",
+            "release":"2030-02-02",
             "version":"?",
             "updateInfo":"Unknown"
          },
          {
             "title": "Playing Human",
-            "description":"1",
+            "description":"After being declined by a school, I have decided to continue the prodotype game they made me waste my time on creating to show it is their lost and not mine.",
             "img":"https://n1alberto.github.io/img/Playing-Human.png",
             "link":"???",
             "release":"Unknown",
@@ -29,21 +29,21 @@
          },
          {
             "title": "Slender The Missing Soul",
-            "description":"1",
+            "description":"A game we made as a school project that became such a good idea we decided to finish it and upload it.",
             "img":"https://n1alberto.github.io/img/STMS.png",
             "link":"https://ferret-studio.itch.io/slender-the-missing-soul",
-            "release":"Unknown",
+            "release":"2023-02-11",
             "version":"???",
             "updateInfo":"Unknown"
          },
          {
             "title": "Slender The Missing Soul Remake",
-            "description":"1",
+            "description":"???",
             "img":"https://n1alberto.github.io/img/STMS.png",
             "link":"???",
-            "release":"Unknown",
-            "version":"?",
-            "updateInfo":"Unknown"
+            "release":"???",
+            "version":"???",
+            "updateInfo":"???"
          }
     ]
 }
